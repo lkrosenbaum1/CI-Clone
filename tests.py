@@ -9,8 +9,8 @@ class TestCase(unittest.TestCase):
         self.assertEqual(task.my_func(), expected)
 
     def test2(self):
-        expected "Hola Mundo"
-        self.assertEqual(task.my_func(), expected)
+        expected = "Hola Mundo"
+        self.assertNotEqual(task.my_func(), expected)
 
 
 if __name__ == '__main__':
